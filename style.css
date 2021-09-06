@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.inp{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(94, 94, 94) 1px solid;
+}
+.but{
+    width: 100%;
+}
+
+.f1{
+    border: solid rgb(126, 126, 126) 1px;
+    border-radius: 10px;
+    padding: 25px;
+
+    background-color: rgb(230, 253, 246);
+    
+}
+.par, .par1, .par2{
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.toggle, .toggle1{
+    color: rgb(40, 43, 255);
+}
+
+.dispNone{
+    display: none;
+}
+.child{
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(233, 240, 240);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.forImg{
+    background-image: url(img/Без\ названия.png);
+    background-repeat: round;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.signout{
+    width: 50%;
+}
+.names{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+.emails{
+    margin-bottom: 10Px;
+}
+.work{
+    margin-bottom: 15px;
+}
